@@ -34,8 +34,9 @@ public class ducciSequence {
 			}
 			
 			split = partLine.split(", ");
+			length = split.length;
 			
-			
+			System.out.println(length);
 		}
 		
 		//close scanner
