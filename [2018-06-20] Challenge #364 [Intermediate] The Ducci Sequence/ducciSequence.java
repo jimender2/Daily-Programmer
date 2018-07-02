@@ -14,8 +14,7 @@ public class ducciSequence {
 	    	partLine = "",
 	    	split[];
 	    
-	    int number[],
-	    	difference,
+	    int difference,
 	    	length,
 	    	i = 1;
 	    
@@ -34,14 +33,29 @@ public class ducciSequence {
 			}
 			
 			split = partLine.split(", ");
-			length = split.length;
 			
-			System.out.println(length);
+			int[] number = new int[split.length]; 
+			// Creates the integer array.
+			for (int t = 0; i < split.length; t++){
+			    number[t] = Integer.parseInt(split[t]);
+			}
+			
+			length = number.length - 1;
+			
+			i = 0;
+			while (true) {
+				difference(number[]);
+			}
 		}
 		
 		//close scanner
 		scan.close();
 		
 		}
+	
+	public static int difference(int number[]) {
+		
+		return 0;
+	}
 
 }
